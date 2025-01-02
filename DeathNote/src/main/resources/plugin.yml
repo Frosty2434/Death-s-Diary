@@ -1,0 +1,16 @@
+name: DeathNote
+version: '1.0-SNAPSHOT'
+main: DeathNoteBuild.deathNote.DeathNote
+api-version: '1.21'
+commands:
+  givediary:
+    usage: /giveDiary <player>
+
+  removediary:
+    usage: /removeDiary <player>
+
+  addrecipe:
+    usage: /addRecipe
+
+  removerecipe:
+    usage: /removeRecipe
